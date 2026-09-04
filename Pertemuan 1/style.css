@@ -8,23 +8,69 @@ header {
     padding: 30px;
     text-align: center;
     background: #630000;
+    h1{
+    color: #EDEBDD;
+    }
+    p {
     font-style:italic;
     color: #EDEBDD;
+    text-align: center;
+    }
+
+    img.untar {
+        width: 150px;
+        height: auto;
+        float: left;
+        margin: 20px;
+    }
+    img.fti{
+        width: 102px;
+        height: auto;
+        float: right;
+    }
 }
 
 nav {
     padding: 15px;
     text-align: center;
     background: #810010;
+    font-weight: bold;
+    
+    #home, #profile, #contact {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #EDEBDD;
+    }
 }
 
 article {
-    padding: 30px;
+    padding: 50px;
     max-width: 900px;
     margin: auto;
     h2 {
         color: #630000;
     }
+    img.meisa {
+        float: right;
+        width: 150px;
+        height: auto;
+        margin: 20px;
+        position: absolute;
+        left: 1000px;
+        top: 250px;
+    }
+    img {
+        width: auto;
+        height: 36px;
+        padding: 10px;
+        align-items: center;
+    }
+    caption {
+        font-size: 10px;
+        color: #630000;
+    }
+
+    
 }
 
 footer {
