@@ -5,17 +5,29 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     background: #630000;
-    h1{
+    min-height: 280px;
+
+h1{
     color: #EDEBDD;
     }
-    p {
+ h2 {
+    font-size: 20px;
     font-style:italic;
     color: #EDEBDD;
     text-align: center;
     }
+    
+
+p {
+    color: #EDEBDD;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin-top: 15px;
+}
 
     img.untar {
         width: 150px;
@@ -52,12 +64,12 @@ article {
     }
     img.meisa {
         float: right;
-        width: 150px;
-        height: auto;
-        margin: 20px;
-        position: absolute;
-        left: 1000px;
-        top: 250px;
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        object-fit: cover;
     }
     img {
         width: auto;
@@ -74,8 +86,43 @@ article {
 }
 
 footer {
-    padding: 20px;
+    padding: 30px 20px 20px;
     text-align: center;
     background: #1b1717;
     color: #EDEBDD;
+    margin-top: 50px;
+}
+
+footer .contact-info {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+footer .contact-info a {
+    color: #EDEBDD;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media {
+    margin: 20px 0 30px;
+}
+
+footer .social-media a {
+    color: #EDEBDD;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border: 1px solid #EDEBDD;
+    font-size: 14px;
+}
+
+
+footer p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
