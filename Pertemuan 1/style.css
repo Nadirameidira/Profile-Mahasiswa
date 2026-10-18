@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EDEBDD;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #630000;
+    min-height: 280px;
+
+h1{
+    color: #EDEBDD;
+    }
+ h2 {
+    font-size: 20px;
+    font-style:italic;
+    color: #EDEBDD;
+    text-align: center;
+    }
+    
+
+p {
+    color: #EDEBDD;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin-top: 15px;
+}
+
+    img.untar {
+        width: 150px;
+        height: auto;
+        float: left;
+        margin: 20px;
+    }
+    img.fti{
+        width: 102px;
+        height: auto;
+        float: right;
+    }
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background: #810010;
+    font-weight: bold;
+    
+    #home, #profile, #contact {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #EDEBDD;
+    }
+}
+
+article {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    h2 {
+        color: #630000;
+    }
+    img.meisa {
+        float: right;
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    img {
+        width: auto;
+        height: 36px;
+        padding: 10px;
+        align-items: center;
+    }
+    caption {
+        font-size: 10px;
+        color: #630000;
+    }
+
+    
+}
+
+footer {
+    padding: 30px 20px 20px;
+    text-align: center;
+    background: #1b1717;
+    color: #EDEBDD;
+    margin-top: 50px;
+}
+
+footer .contact-info {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+footer .contact-info a {
+    color: #EDEBDD;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media {
+    margin: 20px 0 30px;
+}
+
+footer .social-media a {
+    color: #EDEBDD;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border: 1px solid #EDEBDD;
+    font-size: 14px;
+}
+
+
+footer p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
